@@ -1,0 +1,42 @@
+@import url('https://fonts.googleapis.com/css2?family=Archivo+Black&family=Playfair+Display:ital,wght@0,500;1,500&display=swap');
+
+html {
+  background: linear-gradient(to left, white, #eee);
+  color: black;
+  /* font-family: "Playfair Display", serif; */
+  font-family: "Archivo Black", serif;
+}
+
+.header-container {
+  display: flex;
+  justify-content: center;
+}
+
+.header-container img {
+  max-width: 1300px;
+}
+
+.container {
+  text-align: center;
+}
+
+.container h1 {
+  font-family: "Archivo Black", serif;
+  font-size: 3rem;
+  text-transform: uppercase;
+  margin-top: 0;
+  background-color: orange;
+}
+
+@media (max-width: 600px) {
+  html {
+    background: none;
+  }
+  .container h1 {
+    font-family: "Archivo Black", serif;
+    font-size: 2rem;
+    text-transform: uppercase;
+    margin-top: 0;
+    background-color: orange;
+  }
+}
