@@ -1,8 +1,16 @@
 @import url('https://fonts.googleapis.com/css2?family=Archivo+Black&family=Playfair+Display:ital,wght@0,500;1,500&display=swap');
 
+:root {
+  --main-brown: #c2571d;
+  --main-dark-green: #214B35;
+  --main-lighter-green: #587256;
+  --main-tan: #ffe3b0;
+}
+
 html {
-  background: linear-gradient(to left, white, #eee);
-  color: black;
+  /* background: linear-gradient(to left, white, #eee); */
+  background-color: var(--main-dark-green);
+  color: var(--main-tan);
   /* font-family: "Playfair Display", serif; */
   font-family: "Archivo Black", serif;
 }
@@ -25,7 +33,11 @@ html {
   font-size: 3rem;
   text-transform: uppercase;
   margin-top: 0;
-  background-color: orange;
+  background-color: var(--main-brown);
+}
+
+a {
+  color: var(--main-brown)
 }
 
 @media (max-width: 600px) {
