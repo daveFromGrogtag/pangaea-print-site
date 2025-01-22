@@ -50,13 +50,22 @@ html {
   font-variation-settings: "ital" 0, "wght" 600, "wdth" 120;
   font-size: 3rem;
   text-transform: uppercase;
-  padding-top: 6px;
+  padding-top: 18px;
+  padding-bottom: 12px;
   background-color: var(--main-blue);
   color: white;
 }
 
 a {
   color: var(--main-orange)
+}
+
+h2 {
+  font-variation-settings: "ital" 0, "wght" 600, "wdth" 120;
+  font-size: 1.75rem;
+  background-color: var(--main-orange);
+  color: white;
+  padding: 20px 0 15px 0;
 }
 
 /* h2 {
