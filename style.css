@@ -5,12 +5,21 @@
   --main-dark-green: #214B35;
   --main-lighter-green: #587256;
   --main-tan: #ffe3b0;
+
+  --main-orange: #df5a26;
+  --main-blue: #044852;
+  --main-gold: #d2942a;
+  --off-white: #f5e8d5;
+  --light-blue: #c2dcdb;
+  --charcoal: #363638;
+
+
 }
 
 html {
   /* background: linear-gradient(to left, white, #eee); */
-  background-color: var(--main-dark-green);
-  color: var(--main-tan);
+  background-color: var(--off-white);
+  color: var(--charcoal);
   /* font-family: "Playfair Display", serif; */
   font-family: "Archivo Black", serif;
 }
@@ -21,7 +30,7 @@ html {
 }
 
 .header-container img {
-  max-width: 1300px;
+  max-width: 500px;
 }
 
 .container {
@@ -33,7 +42,8 @@ html {
   font-size: 3rem;
   text-transform: uppercase;
   margin-top: 0;
-  background-color: var(--main-brown);
+  background-color: var(--main-blue);
+  color: white;
 }
 
 a {
